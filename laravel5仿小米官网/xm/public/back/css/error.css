@@ -1,0 +1,33 @@
+/*
+ * MWS Admin v2.1 - Error Page Stylesheet
+ * This file is part of MWS Admin, an Admin template build for sale at ThemeForest.
+ * All copyright to this file is hold by Mairel Theafila <maimairel@yahoo.com> a.k.a nagaemas on ThemeForest.
+ * Last Updated:
+ * December 08, 2012
+ *
+ */
+
+#mws-error-page {
+    margin: auto;
+    max-width: 480px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#mws-error-page h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: auto;
+    line-height: 96px;
+}
+
+#mws-error-page h1 span {
+    font-size: 96px;
+}
+
+#mws-error-page a {
+    display: inline-block;
+    border-bottom: 1px dotted #000;
+    color: #000;
+    text-decoration: none;
+}

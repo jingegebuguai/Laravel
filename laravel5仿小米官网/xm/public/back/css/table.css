@@ -1,0 +1,302 @@
+/*
+ * MWS Admin v2.1 - Table Stylesheet
+ * This file is part of MWS Admin, an Admin template build for sale at ThemeForest.
+ * All copyright to this file is hold by Mairel Theafila <maimairel@yahoo.com> a.k.a nagaemas on ThemeForest.
+ * Last Updated:
+ * December 08, 2012
+ *
+ */
+
+/* General Table Styling
+================================================== */
+
+.mws-table {
+    width: 100%;
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.mws-table thead tr {
+    background: #e8e8e8 repeat-x left top;
+    background-image: -ms-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f7f7f7), to(#e8e8e8));
+    background-image: -webkit-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: -o-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: -moz-linear-gradient(top, #f7f7f7, #e8e8e8);
+    background-image: linear-gradient(top, #f7f7f7, #e8e8e8);
+}
+
+.mws-table thead tr th:first-child {
+    border-left: none;
+}
+
+.mws-table thead tr th {
+    padding: 10px 16px;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+}
+
+.mws-table .checkbox-column {
+    width: 32px;
+    text-align: center;
+}
+
+.mws-table tbody td, 
+.mws-table tfoot td {
+    padding: 8px 16px;
+    border-left-width: 1px;
+    border-left-style: dotted;
+    border-left-color: #bebebe !important;
+}
+
+.mws-table tbody td:first-child, 
+.mws-table tfoot td:first-child {
+    border-left: none;
+}
+
+.mws-table tbody tr:nth-child(2n+1) {
+    background-color: #f2f2f2;
+}
+
+.mws-table tbody tr:nth-child(2n) {
+    background-color: #fafafa;
+}
+
+.mws-table tbody tr.odd {
+    background-color: #f2f2f2;
+}
+
+.mws-table tbody tr.even {
+    background-color: #fafafa;
+}
+
+.mws-table tbody tr.odd td.sorting_1 {
+    background-color: #cccccc;
+}
+
+.mws-table tbody tr.even td.sorting_1 {
+    background-color: #e1e1e1;
+}
+
+/* Data Table Styling
+================================================== */
+
+.dataTables_wrapper {
+    background: #444444;
+}
+
+.dataTables_wrapper table thead th.sorting, 
+.dataTables_wrapper table thead th.sorting_asc, 
+.dataTables_wrapper table thead th.sorting_desc {
+    cursor: pointer;
+    outline: none;
+}
+
+.dataTables_wrapper table thead th.sorting_asc, 
+.dataTables_wrapper table thead th.sorting_desc, 
+.dataTables_wrapper table thead th.sorting {
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+
+.dataTables_wrapper table thead th.sorting {
+    background-image: url(../images/core/sort.png);
+}
+
+.dataTables_wrapper table thead th.sorting_asc {
+    background-image: url(../images/core/sort_asc.png);
+}
+
+.dataTables_wrapper table thead th.sorting_desc {
+    background-image: url(../images/core/sort_desc.png);
+}
+
+.dataTables_wrapper:before,
+.dataTables_wrapper:after {
+    content: '.';
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+}
+
+.dataTables_wrapper:after {
+    clear: both;
+}
+
+.dataTables_wrapper {
+    zoom: 1;
+}
+
+.dataTables_wrapper .dataTables_length, 
+.dataTables_wrapper .dataTables_filter, 
+.dataTables_wrapper .dataTables_info, 
+.dataTables_wrapper .dataTables_paginate {
+    padding: 8px;
+}
+
+.dataTables_wrapper .dataTables_length {
+    float: left;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    background-color: #cccccc;
+    text-align: right;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.dataTables_wrapper .dataTables_info {
+    color: #ffffff;
+    float: left;
+    margin-top: 2px;
+    display: block;
+}
+
+.dataTables_wrapper .dataTables_paginate {
+    color: #ffffff;
+    float: right;
+    padding: 2px;
+    margin: 10px 8px 10px 0;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15), inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15), inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15), inset 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_previous, 
+.dataTables_wrapper .dataTables_paginate .paginate_enabled_previous, 
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_next, 
+.dataTables_wrapper .dataTables_paginate .paginate_enabled_next {
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+    float: left;
+    display: block;
+    cursor: pointer;
+    outline: none;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_previous, 
+.dataTables_wrapper .dataTables_paginate .paginate_enabled_previous {
+    background-image: url(../images/core/arrow-left.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-right: 1px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_next, 
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_previous {
+    opacity: .35;
+    filter: Alpha(35);
+    cursor: auto;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_disabled_next, 
+.dataTables_wrapper .dataTables_paginate .paginate_enabled_next {
+    background-image: url(../images/core/arrow-right.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 0 4px 4px 0;
+    -moz-border-radius: 0 4px 4px 0;
+    -khtml-border-radius: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .first {
+    -webkit-border-radius: 2px 0 0 2px;
+    -moz-border-radius: 2px 0 0 2px;
+    border-radius: 2px 0 0 2px;
+}
+
+.dataTables_wrapper .dataTables_paginate .last {
+    -webkit-border-radius: 0 2px 2px 0;
+    -moz-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button, 
+.dataTables_wrapper .dataTables_paginate .paginate_active {
+    float: left;
+    height: 20px;
+    padding: 0 10px;
+    display: block;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    background-color: #444444;
+    color: #fff;
+    text-decoration: none;
+    border-right: 1px solid #232323;
+    border-left: 1px solid #666666;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.15);
+    -webkit-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5), inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5), inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.5), inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:first-child {
+    border-left: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:last-child {
+    border-right: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button_disabled {
+    color: #666666;
+    cursor: default;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_active {
+    color: #323232;
+    border: none;
+    background-image: none;
+    -webkit-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+@media only screen and (max-width : 599px) {
+    .mws-table {
+        table-layout: fixed;
+    }
+
+    .mws-table thead tr th {
+        padding: 10px 2px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .mws-table tbody td, 
+    .mws-table tfoot td {
+        padding: 8px;
+    }
+
+    .dataTables_wrapper .dataTables_length, 
+    .dataTables_wrapper .dataTables_filter {
+        display: block;
+        float: none;
+        width: auto;
+        background-color: #cccccc;
+        text-align: left;
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+        margin: 10px 8px;
+    }
+}

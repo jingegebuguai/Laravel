@@ -1,0 +1,55 @@
+/*
+ * MWS Admin v2.1 - Core Stylesheet
+ * This file is part of MWS Admin, an Admin template build for sale at ThemeForest.
+ * All copyright to this file is hold by Mairel Theafila <maimairel@yahoo.com> a.k.a nagaemas on ThemeForest.
+ * Last Updated:
+ * December 08, 2012
+ *
+ */
+
+.lt-ie9 #mws-navigation > ul {
+    border-top: 0;
+    border-bottom: 0;
+    padding-top: 1px;
+    background: url(../images/core/mws-nav-ruler.png) repeat-x left top;
+}
+
+.lt-ie9 #mws-navigation > ul > li {
+    border-top: 0;
+    border-bottom: 0;
+    padding-bottom: 2px;
+    background: url(../images/core/mws-nav-ruler.png) repeat-x left bottom;
+}
+
+.lt-ie9 .mws-inset, 
+.lt-ie9 #mws-navigation > ul > li > ul, 
+.lt-ie9 #mws-navigation > ul > li .mws-nav-tooltip, 
+.lt-ie9 #mws-navigation > ul > li > ul > li:hover, 
+.lt-ie9 .dataTables_wrapper .dataTables_paginate {
+    background-color: transparent;
+    background-repeat: repeat;
+    background-image: url(../images/core/alpha.png);
+}
+
+.lt-ie9 select, 
+.lt-ie9 textarea, 
+.lt-ie9 input[type="text"], 
+.lt-ie9 input[type="password"], 
+.lt-ie9 input[type="datetime"], 
+.lt-ie9 input[type="datetime-local"], 
+.lt-ie9 input[type="date"], 
+.lt-ie9 input[type="month"], 
+.lt-ie9 input[type="time"],
+.lt-ie9 input[type="week"], 
+.lt-ie9 input[type="number"], 
+.lt-ie9 input[type="email"], 
+.lt-ie9 input[type="url"], 
+.lt-ie9 input[type="search"], 
+.lt-ie9 input[type="tel"], 
+.lt-ie9 input[type="color"] {
+    min-height: 20px;
+}
+
+.lt-ie9 .select2-container-multi .select2-choices .select2-search-field input {
+    min-height: 16px;
+}

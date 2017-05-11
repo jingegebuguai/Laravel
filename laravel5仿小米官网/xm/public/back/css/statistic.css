@@ -1,0 +1,203 @@
+/*
+ * MWS Admin v2.1 - Statistic Stylesheet
+ * This file is part of MWS Admin, an Admin template build for sale at ThemeForest.
+ * All copyright to this file is hold by Mairel Theafila <maimairel@yahoo.com> a.k.a nagaemas on ThemeForest.
+ * Last Updated:
+ * December 08, 2012
+ *
+ */
+
+/* (1) Statistic Boxes
+================================================== */
+
+.mws-stat-container {
+    width: 100%;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.mws-stat {
+    display: inline-block;
+    vertical-align: top;
+    margin: 8px 1%;
+    height: 80px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #323232;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #ffffff repeat-x left top;
+    background-image: -ms-linear-gradient(top, #ffffff, #fafafa);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#fafafa));
+    background-image: -webkit-linear-gradient(top, #ffffff, #fafafa);
+    background-image: -o-linear-gradient(top, #ffffff, #fafafa);
+    background-image: -moz-linear-gradient(top, #ffffff, #fafafa);
+    background-image: linear-gradient(top, #ffffff, #fafafa);
+    border: 1px solid #cccccc;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.mws-stat:hover {
+    background-color: #fafafa;
+    text-decoration: none;
+    color: #323232;
+}
+
+.mws-stat:active {
+    background-image: none;
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.5);
+}
+
+.mws-stat .mws-stat-icon {
+    width: 48px;
+    height: 100%;
+    float: left;
+    display: block;
+    border-right: 1px solid #cccccc;
+    background-position: center center;
+}
+
+.mws-stat .mws-stat-content {
+    margin-left: 49px;
+    display: block;
+    text-align: left;
+    padding: 8px 20px;
+}
+
+.mws-stat .mws-stat-content .mws-stat-title {
+    font-size: 12px;
+    line-height: 18px;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mws-stat .mws-stat-content .mws-stat-value {
+    font-size: 32px;
+    line-height: 48px;
+    /*font-weight: bold;*/
+    display: inline-block;
+}
+
+.mws-stat .mws-stat-content .mws-stat-value.up {
+    background: url(../images/core/report-up.png) no-repeat right center;
+    padding-right: 24px;
+}
+
+.mws-stat .mws-stat-content .mws-stat-value.down {
+    background: url(../images/core/report-down.png) no-repeat right center;
+    padding-right: 24px;
+}
+
+/* Summary
+================================================== */
+
+.mws-summary {
+    margin: 0;
+    list-style: none;
+}
+
+.mws-summary > li {
+    color: #444;
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    padding: 0 13px;
+}
+
+.mws-summary > li .key, 
+.mws-summary > li .val {
+    padding: 10px 0;
+    line-height: 24px;
+    min-height: 24px;
+    word-wrap: break-all;
+    display: block;
+}
+
+.mws-summary > li .key {
+    width: 140px;
+    margin-right: 10px;
+    float: left;
+    font-weight: bold;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.mws-summary > li .key [class*="icon-"], 
+.mws-summary > li .key [class*="icol-"] {
+    font-size: 21px;
+    line-height: 21px;
+    height: 24px;
+    margin-right: 4px;
+    vertical-align: top;
+}
+
+.mws-summary > li > .val .up {
+    color: #468847;
+}
+
+.mws-summary > li > .val .down {
+    color: #b94a48;
+}
+
+.mws-summary > li .val {
+    overflow: hidden;
+    position: relative;
+}
+
+/* (2) Flot Tooltips
+================================================== */
+
+#flotTip {
+    padding: 3px 6px !important;
+    color: #ffffff !important;
+    font-size: 11px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    background-color: #222 !important;
+    border: 1px solid #000 !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Media Queries
+================================================== */
+
+@media only screen and (max-width: 768px) {
+    
+    .mws-stat {
+        width: 100%;
+        height: 60px;
+        margin: 8px 0;
+    }
+
+    .mws-stat .mws-stat-content .mws-stat-value {
+        font-size: 21px;
+        line-height: 32px;
+    }
+
+    .mws-stat .mws-stat-content .mws-stat-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: block;
+    }
+}
+
+@media only screen and (max-width : 599px) {
+    .mws-stat-container {
+        margin-bottom: 16px;
+    }
+}

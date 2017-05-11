@@ -1,0 +1,62 @@
+/*
+ * MWS Admin v2.1 - Bootstrap Tweaks Stylesheet
+ * This file is part of MWS Admin, an Admin template build for sale at ThemeForest.
+ * All copyright to this file is hold by Mairel Theafila <maimairel@yahoo.com> a.k.a nagaemas on ThemeForest.
+ * Last Updated:
+ * December 08, 2012
+ *
+ */
+
+/* Panel Toolbar
+================================================== */
+
+.mws-panel-toolbar {
+    border: 1px solid #bbb;
+    border-top: 0;
+    margin: 0 2px;
+    z-index: 10;
+    position: relative;
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+}
+
+.mws-panel-toolbar .btn-toolbar {
+    margin: 0;
+}
+
+.mws-panel-toolbar .btn-toolbar .btn {
+    border-top: 0;
+    border-bottom: 0;
+    border-color: #ccc;
+    padding: 6px 16px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.mws-panel-toolbar .btn-toolbar .btn.dropdown-toggle {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.mws-panel-toolbar .btn-toolbar .btn-group + .btn-group {
+    margin-left: 0;
+}
+
+.mws-panel-toolbar .btn-toolbar .btn:first-child {
+    border-left: 0;
+}
+
+/* Bootstrap Fixes */
+
+.dropup .dropdown-submenu > .dropdown-menu {
+    top: auto;
+    bottom: 0;
+    margin-top: 0;
+    margin-bottom: -2px;
+}

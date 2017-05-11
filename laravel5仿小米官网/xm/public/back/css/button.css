@@ -1,0 +1,172 @@
+/*
+ * MWS Admin v2.1 - Button Stylesheet
+ * This file is part of MWS Admin, an Admin template build for sale at ThemeForest.
+ * All copyright to this file is hold by Mairel Theafila <maimairel@yahoo.com> a.k.a nagaemas on ThemeForest.
+ * Last Updated:
+ * December 08, 2012
+ *
+*/
+
+/* Default Button
+================================================== */
+
+.btn {
+    border-color: #bbb;
+    font-family: 'PTSansRegular', Arial, Helvetica, sans-serif;
+}
+
+.btn [class^="icon-"] {
+    font-size: 14px;
+}
+
+.btn-large .caret {
+    margin-top: 8px;
+}
+
+.btn-primary, 
+.btn-info, 
+.btn-danger, 
+.btn-success, 
+.btn-warning, 
+.btn-inverse {
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Primary Button
+================================================== */
+
+.btn-primary {
+    border-color: #416b8b;
+    background-image: -ms-linear-gradient(top, #5d9ed2, #4386bc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5d9ed2), to(#4386bc));
+    background-image: -webkit-linear-gradient(top, #5d9ed2, #4386bc);
+    background-image: -o-linear-gradient(top, #5d9ed2, #4386bc);
+    background-image: -moz-linear-gradient(top, #5d9ed2, #4386bc);
+    background-image: linear-gradient(top, #5d9ed2, #4386bc);
+    background-color: #4386bc;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+    background-color: #4386bc;
+}
+
+/* Warning Button
+================================================== */
+
+.btn-warning {
+    border-color: #9f570a;
+    background-image: -moz-linear-gradient(top, #e7852b, #de7616);
+    background-image: -ms-linear-gradient(top, #e7852b, #de7616);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e7852b), to(#de7616));
+    background-image: -webkit-linear-gradient(top, #e7852b, #de7616);
+    background-image: -o-linear-gradient(top, #e7852b, #de7616);
+    background-image: linear-gradient(top, #e7852b, #de7616);
+}
+
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled] {
+    background-color: #de7616;
+}
+
+/* Danger Button
+================================================== */
+
+.btn-danger {
+    border-color: #762929;
+    background-image: -moz-linear-gradient(top, #ca4e4e, #bc4343);
+    background-image: -ms-linear-gradient(top, #ca4e4e, #bc4343);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ca4e4e), to(#bc4343));
+    background-image: -webkit-linear-gradient(top, #ca4e4e, #bc4343);
+    background-image: -o-linear-gradient(top, #ca4e4e, #bc4343);
+    background-image: linear-gradient(top, #ca4e4e, #bc4343);
+}
+
+.btn-danger:hover,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled] {
+    background-color: #bc4343;
+}
+
+/* Success Button
+================================================== */
+
+.btn-success {
+    border-color: #507e0c;
+    background-image: -ms-linear-gradient(top, #addf58, #96c742);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#addf58), to(#96c742));
+    background-image: -webkit-linear-gradient(top, #addf58, #96c742);
+    background-image: -o-linear-gradient(top, #addf58, #96c742);
+    background-image: -moz-linear-gradient(top, #addf58, #96c742);
+    background-image: linear-gradient(top, #addf58, #96c742);
+}
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled] {
+    background-color: #96c742;
+}
+
+/* Info Button
+================================================== */
+
+.btn-info {
+    border-color: #28889f;
+    background-image: -ms-linear-gradient(top, #32bed8, #2ea6c2);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#32bed8), to(#2ea6c2));
+    background-image: -webkit-linear-gradient(top, #32bed8, #2ea6c2);
+    background-image: -o-linear-gradient(top, #32bed8, #2ea6c2);
+    background-image: -moz-linear-gradient(top, #32bed8, #2ea6c2);
+    background-image: linear-gradient(top, #32bed8, #2ea6c2);
+}
+
+.btn-info:hover,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled] {
+    background-color: #2ea6c2;
+}
+
+/* Inverse Button
+================================================== */
+
+.btn-inverse {
+    border-color: #000;
+    background-image: -ms-linear-gradient(top, #5a5858, #464646);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#5a5858), to(#464646));
+    background-image: -webkit-linear-gradient(top, #5a5858, #464646);
+    background-image: -o-linear-gradient(top, #5a5858, #464646);
+    background-image: -moz-linear-gradient(top, #5a5858, #464646);
+    background-image: linear-gradient(top, #5a5858, #464646);
+}
+
+.btn-inverse:hover,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled] {
+    background-color: #464646;
+}
+
+/* Color Icons
+================================================== */
+
+.btn-large [class^="icol-"] {
+    margin-top: 2px;
+}
+
+.btn-small [class^="icol-"] {
+    margin-top: 0;
+}

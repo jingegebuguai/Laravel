@@ -1,0 +1,6 @@
+﻿1、导入xm.sql数据库，修改根目录下的.env里数据库配置信息
+2、绑定域名到跟目录下的public
+3、后台地址：域名/admin/login   账号密码：admin  iloveyou
+
+
+
