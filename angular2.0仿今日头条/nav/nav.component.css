@@ -1,0 +1,29 @@
+.header{
+  position: fixed;display: flex; flex-direction: column;width:100%;z-index: 99;
+}
+.top{
+  background: orangered; min-height:45px;display: flex; flex-direction: row;flex-wrap: nowrap;justify-content: space-between;align-items: center;
+}
+img{
+  width:20px;height: 20px;
+}
+span{
+  font-size: 25px;margin-right:15px;margin-bottom:10px;font-family: "楷体";
+}
+
+
+.nav{
+  background: snow;max-height: 40px;border-bottom:1px solid whitesmoke;
+}
+ul{
+  font-size:18px;margin-top:8px;margin-left:-5%;margin-right:5%;display: flex; flex-direction: row;flex-wrap: nowrap;justify-content: space-around;align-items: center;
+}
+ul li{
+  list-style: none;
+}
+a{
+  text-decoration: none;color:black;
+}
+a:hover{
+  color:red;
+}

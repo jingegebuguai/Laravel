@@ -1,0 +1,25 @@
+.comments{
+  display:flex;flex-direction: row;flex-wrap: nowrap;margin-left:15px;margin-right:15px;margin-top:15px;
+}
+img{
+  width:50px; height:50px; border-radius: 25px;-moz-border-radius: 25px;-webkit-border-radius: 25px;
+}
+.right{
+  margin-left:15px;
+}
+.name_digg{
+  display: flex; flex-direction: row; flex-wrap: nowrap;
+}
+.text{
+  font-size: 18px;margin-top:5px;
+}
+.time_reply{
+  margin-top:10px;display:flex;flex-direction: row;justify-content: flex-start;font-size:15px;align-items: center;
+}
+.reply_count{
+  background: seashell;padding:3px 8px;border-radius:15px;
+}
+.digg{
+  right:15px;position:absolute;
+}
+

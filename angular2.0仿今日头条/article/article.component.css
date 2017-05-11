@@ -1,0 +1,34 @@
+.article{
+  margin-top:15px;margin-left:10px;margin-right:10px;display: flex;flex-direction: column;flex-wrap: nowrap;
+}
+.title{
+  font-size: 25px;font-family: "黑体";
+}
+.center{
+  height:50px;margin-top:15px;display:flex;flex-direction: row;flex-wrap: nowrap;align-items: center;justify-content: space-between;
+}
+.asp{
+  display: flex;flex-direction: row;flex-wrap: nowrap;align-items: center;
+}
+.asp:last-child{
+  display: flex;flex-direction: column;overflow: hidden;
+}
+img:first-child{
+  height:50px;width:50px;border-radius: 25px
+}
+.source{
+  margin-left:10px;font-size:20px;font-family: "黑体";margin-top:15px;height:5px;
+ }
+ .publish_time{
+   margin-left:10px;
+ }
+button{
+  min-width:100px;background-color: dodgerblue;height:30px;border-radius: 10px;-moz-border-radius: 10px;-webkit-border-radius: 10px;outline: none;
+}
+.top{
+  position:fixed;top:0;z-index:99;width:100%;height:50px;background: whitesmoke;display: flex;flex-direction: row;justify-content: space-between;flex-wrap: nowrap;align-items: center;
+}
+.avatar_source{
+  display: flex; flex-direction: row;align-items: center;
+}
+

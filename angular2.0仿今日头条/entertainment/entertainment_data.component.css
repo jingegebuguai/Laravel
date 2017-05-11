@@ -1,0 +1,16 @@
+.hot{background:snow;margin-left:15px;margin-right:15px;}
+a{text-decoration: none ;list-style: none;color:black;}
+#images{display:flex;flex-direction:column;border-bottom:1px solid silver}
+.title{margin-top:10px;margin-left:0;margin-right:0;font-size:18px;font-family: "Microsoft YaHei", "宋体", "Segoe UI", "Lucida Grande", Helvetica, Arial, sans-serif, FreeSans, Arimo}
+.images{display:flex;flex-direction: row;justify-content: space-between;align-items: center}
+img{width:32%;max-height:100px; margin-top:10px}
+.source{float:left;margin-top:5px;margin-bottom: 10px}
+.comments{float:left;margin-top:5px ;margin-left:15px; margin-bottom: 10px}
+.time{float:right;margin-top:5px; margin-bottom:10px; margin-right:15px}
+.hot2{position:relative;background:snow;margin-left:15px;margin-right:15px;}
+.left{width:70%}
+#large_image{display:flex;flex-direction:row;border-bottom:1px solid silver}
+.large_image{width:34%;margin-left:15px;margin-bottom: 10px;margin-top: 0;margin-right: 0}
+.large_image img{float:right;width:100%;max-height: 100px}
+.comments_1{float:left;margin-left: 15px;margin-top:10px}
+.source_1{float: left;margin-top:10px}
